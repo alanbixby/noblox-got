@@ -1,10 +1,11 @@
-export interface TransactionsResponse {
+export interface CursorResponse<T> {
   previousPageCursor?: string
   nextPageCursor?: string
-  data: Transaction[]
+  data: T[]
 }
 
 export interface Transaction {
+  transactionId: number
   id: number
   created: string
   isPending: boolean

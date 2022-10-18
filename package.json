@@ -34,7 +34,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "emittery": "^1.0.0",
     "got": "^12.5.1"
   }
 }
